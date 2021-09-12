@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import axios from "axios";
 import DropzoneComponent from "react-dropzone-component";
@@ -174,7 +175,7 @@ export default class PortfolioForm extends Component {
           banner_image: "",
           logo: "",
           editMode: false,
-          apiUrl: "https://jordan.devcamp.space/portfolio/portfolio_items",
+          apiUrl: "https://hector.devcamp.space/portfolio/portfolio_items",
           apiAction: "post"
         });
 
